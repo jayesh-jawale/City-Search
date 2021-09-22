@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Cities</title>
+</head>
+
+<style>
+    .container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    background-color: cyan;
+}
+    input[type='text']{
+        margin: auto;
+        display: block;
+        width: 50%;
+        border: 1px solid black;
+        border-radius: 1px solid;
+    }
+    button{
+        display: block;
+        margin: auto;
+    }
+    .box{
+        border: 2px solid black;
+        height: 300px;
+        width: 200px;
+        padding: 20px;
+        margin: 20px;
+        background-color: wheat;
+    }
+</style>
+
+<body style="background-color: rgb(126, 166, 172);">
+    <div class="container">
+        <h1 style="text-align: center;">Search Cities</h1>
+        <input type="text" id="search" placeholder="Search Cities"> <br>
+        
+        <div id="cities">
+    
+        </div>
+    </div>
+
+</body>
+<script src="searchCities.js"></script>
+</html>
